@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.secOne {
+    padding: 16px 60px;
+    background: #010D14;
+}
+.secOne_contact {
+    max-width: 1250px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.mail {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.iconMail {
+    font-size: 15px;
+    margin-right: 10PX;
+}
+
+.iconCall {
+    margin-left: 20PX;
+    margin-right: 10PX;
+}
+
+/* toolbar end */
+
+.secTwo {
+    padding: 16px 60px;
+}
+
+.nav {
+    align-items: center;
+    max-width: 1250px;
+    display: flex;
+}
+
+.mainLogo {
+    max-height: 80px;
+}
+
+section nav ul.mainMenu {
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+section nav ul.mainMenu li a {
+    color: #010d14;
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+section nav ul.mainMenu li a:hover {
+    color: #11198D;
+}
+
+.mainMenuItems {
+    float: left;
+    padding-left: 20px;
+    position: relative;
+    /* border: 2px solid green; */
+}
+
+/* .mainMenuItems:hover a{
+    color: #11198D;
+} */
+
+.all_dropdown {
+    background-color: red;
+    position: absolute;
+    left: 0%;
+    width: 140px;
+    top: 100%;
+    display: none;
+}
+
+.subDropdown {
+    padding: 10px; 
+}
+
+.collageLi:hover .all_dropdown{
+    display: block;
+}
+
+.staffLi:hover .all_dropdown{
+    display: block;
+}
+
+.studentLi:hover .all_dropdown{
+    display: block;
+}
+
+.LiBox {margin-left: 5px;
+    color: #010D14;
+    width: 270px;
+    font-size: 13px;
+    background: #ffb703;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+}
+
+.LiBox:hover{
+    background: #010D14;
+    color: #FFFFFF;
+}
+
+.LiBox a {
+    color: #010D14;
+}
