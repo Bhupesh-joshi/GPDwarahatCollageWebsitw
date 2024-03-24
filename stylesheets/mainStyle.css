@@ -132,21 +132,32 @@ section nav ul.mainMenu li a:hover {
 
 /* <!-- section Three starts --> */
 
-.carousel_WtNew_Sec {
+.carousel_WtNew_Section {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    width: 1349px;
+    background-color: #F0F0F0;
+    min-height: 100vh;
+    z-index: -1;
+}
+
+/* .carousel_WtNew_Sec {
     width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ede6d6;
-}
+} */
 
 .slide_container {
     position: relative;
-    width: 800px;
-    height: 350px;
-    border: 3px solid #efefef;
-    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+    width: 940px;
+    height: 390px;
+    margin-top: 10px;
+    /* border: 3px solid #efefef; */
+    /* box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2); */
 }
 
 .slide_container .slides {
@@ -156,14 +167,14 @@ section nav ul.mainMenu li a:hover {
     overflow: hidden;
 }
 
-.slide_container .slides img{
+.slide_container .slides .crsl_img{
     width: 100%;
     height: 100%;
     position: absolute;
     object-fit: cover;
 }
 
-.slide_container .slides img:not(.active) {
+.slide_container .slides .crsl_img:not(.active) {
     top: 0;
     left: -100%;
 }
@@ -191,8 +202,189 @@ section nav ul.mainMenu li a:hover {
     left: 20px;
 }
 
-.buttons span.next, span.prev:hover {
+.buttons span.next:hover, span.prev:hover {
     background-color: #ede6d6;
     opacity: 0.8;
     color: #222;
 }
+
+@keyframes next1 {
+    from{
+        left: 0%;
+    }
+    to{
+        left: -100%;
+    }
+}
+
+@keyframes next2 {
+    from{
+        left: 100%;
+    }
+    to{
+        left: 0%;
+    }
+}
+
+@keyframes prev1 {
+    from{
+        left: 0%;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+@keyframes prev2 {
+    from{
+        left: -100%;
+    }
+    to{
+        left: 0%;
+    }
+}
+
+
+.WtNew {
+    background-color: #002873;
+    height: 100%;
+    width: 30%;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.WtNew h1 {
+    text-align: center;
+    color: #F4F4F4;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.WtNew div{
+    margin: 20px 0px 40px 0px;
+}
+
+.WtNew div a{
+    color: #fff;
+    background-color: transparent;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.ukGovImg {
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* <!-- section Three End --> */
+
+/* <!-- section Four starts --> */
+
+    .noticeBoardSec {
+        max-width: 1349px;
+        display: flex;
+    text-align: center;
+    justify-content: space-between;
+    }
+
+    .noticeBoardSec .NB{
+        width: 200px;
+        height: 50px;
+        color: #FFFFFF;
+        background-color: #0E0975;
+        padding: 10px;
+    }
+
+    .allNotices {
+        align-self: center;
+    /* display: flex;
+    text-align: center; */
+    }
+
+    .allNotices a {
+        color: #010d14;
+    }
+
+    .allNotices a {
+        color: #010d14;
+    }
+
+    .allNotices a:hover{
+        color: #fcb900;
+    }
+
+/* <!-- section Four End --> */
+
+
+/* <!-- section five starts --> */
+
+.secFive {
+    max-width: 1140px;
+    height: 115vh;
+    margin: auto;
+}
+
+    .welcomeNote {
+        display: flex;
+        /* margin: 40px 0 0 70px; */
+        padding: 40px 0 0 70px;
+        justify-content: space-between;
+    }
+
+    .welcomeNote_theory {
+        width: 67.104%;
+    }
+
+    .secFive .welcomeNote .welcomeNote_theory h1 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .secFive .welcomeNote .welcomeNote_theory .welcomeNote_summary {
+        color: #333333;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.6;
+        width: 91%;
+    }
+
+    .img_principle {
+        text-align: center;
+        background-color: #EFEFEF;
+        flex: auto;
+    }
+
+    .img_principle img {
+        margin-top: 10px;
+        width: 157px;
+        height: 185px;
+        border: 4px solid #e3e3e3;
+    }
+
+    .img_principle .Princi_name {
+        font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: Playfair Display;
+    }
+
+    .Princi_designetion {
+        margin-top: 30px;
+        font-size: 15px;
+        padding-bottom: 60px;
+    }
+
+/* <!-- section five End --> */
+
+/* <!-- section Six starts --> */
+
+.secSix {
+    background-image: url(/imgs/bg_sec_6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* <!-- section Six End --> */
