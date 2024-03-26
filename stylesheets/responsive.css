@@ -1,4 +1,4 @@
-/* @media(min-width:320px) and (max-width:425px){
+@media(min-width:320px) and (max-width:425px){
     .secOne {
         width: 399%;
     }
@@ -32,6 +32,6 @@
 
 }
 
-@media(min-width:1025px) and (max-width:1150px){
+/* @media(min-width:1025px) and (max-width:1150px){
 
 } */
