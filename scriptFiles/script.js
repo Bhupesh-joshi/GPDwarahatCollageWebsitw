@@ -52,3 +52,7 @@ container.addEventListener('mouseover', function(){
 
 // resume sliding when mouse is out
 container.addEventListener('mouseout', autoSliding);
+
+
+
+

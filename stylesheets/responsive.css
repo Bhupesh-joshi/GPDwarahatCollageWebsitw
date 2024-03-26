@@ -1,0 +1,38 @@
+@media(min-width:320px) and (max-width:425px){
+    .secOne {
+        width: 399%;
+    }
+    
+    .mail {
+        font-size: 35px;
+    }
+    
+    .secOne_contact {
+        width: 79%;
+        justify-content: center;
+    }
+    
+    .secOne_contact .material-symbols-outlined {
+        font-size: 40px;
+    }
+
+    .secOne .secOne_contact p {
+        font-size: 35px;
+    }
+}
+
+@media(min-width:426px) and (max-width:768px){
+
+}
+
+@media(min-width:426px) and (max-width:600px){ 
+
+}
+
+@media(min-width:768px) and (max-width:1024px){
+
+}
+
+@media(min-width:1025px) and (max-width:1150px){
+
+}
