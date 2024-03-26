@@ -1,4 +1,4 @@
-@media(min-width:320px) and (max-width:425px){
+/* @media(min-width:320px) and (max-width:425px){
     .secOne {
         width: 399%;
     }
@@ -9,7 +9,6 @@
     
     .secOne_contact {
         width: 79%;
-        justify-content: center;
     }
     
     .secOne_contact .material-symbols-outlined {
@@ -35,4 +34,4 @@
 
 @media(min-width:1025px) and (max-width:1150px){
 
-}
+} */
